@@ -1,5 +1,5 @@
 {
-    "name": "life",
+    "name": "conway's the game of life",
     "description": "",
     "dependencies": {
         "core": "*",
