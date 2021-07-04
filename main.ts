@@ -146,18 +146,18 @@ let y_value = 0
 let x_value = 0
 let return_value = 0
 let neighbours = 0
-let select_blink = 0
 let select_y = 0
 let select_x = 0
+let select_blink = 0
 let mode = 0
 let next_gen: number[] = []
 let cells: number[] = []
 cells = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 next_gen = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 mode = 0
+select_blink = 0
 select_x = 0
 select_y = 0
-select_blink = 0
 basic.forever(function () {
     if (mode == 0) {
         select()
